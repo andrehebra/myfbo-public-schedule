@@ -12,6 +12,7 @@ import os
 from datetime import datetime
 from datetime import datetime
 import pytz
+import re
 
 from dotenv import load_dotenv
 
@@ -22,12 +23,12 @@ USERNAME = os.getenv("MYFBO_USERNAME")
 PASSWORD = os.getenv("MYFBO_PASSWORD")
 
 calendar_list = []
-def save_calendars_by_staff(calendar_list, output_dir="staff_calendars"):
-    # Set the timezone
-    eastern = pytz.timezone("America/New_York")
-
+def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezone_str="America/New_York"):
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
+
+    tz = pytz.timezone(timezone_str)
+    default_location = "391 Herndon Ave Suite A, Orlando, FL 32803"
 
     # Group flights by flight_staff
     staff_dict = {}
@@ -43,13 +44,12 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars"):
             event = Event()
             event.name = flight.get("title", "Flight")
 
-            # Parse and localize datetime to Eastern Time
             try:
-                naive_start = datetime.strptime(flight.get("from_time"), "%m/%d/%y %H:%M")
-                naive_end = datetime.strptime(flight.get("to_time"), "%m/%d/%y %H:%M")
+                start_dt_naive = datetime.strptime(flight.get("from_time"), "%m/%d/%y %H:%M")
+                end_dt_naive = datetime.strptime(flight.get("to_time"), "%m/%d/%y %H:%M")
 
-                start_dt = eastern.localize(naive_start)
-                end_dt = eastern.localize(naive_end)
+                start_dt = tz.localize(start_dt_naive)
+                end_dt = tz.localize(end_dt_naive)
 
                 event.begin = start_dt
                 event.end = end_dt
@@ -58,12 +58,15 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars"):
                 continue
 
             event.description = flight.get("equipment", "")
-            event.location = flight.get("location", "")
+
+            # Add default location if not specified
+            event.location = flight.get("location") or default_location
+
             calendar.events.add(event)
 
         file_path = os.path.join(output_dir, f"{staff}.ics")
         with open(file_path, "w", encoding="utf-8") as f:
-            f.write(str(calendar))  # Save calendar to file
+            f.write(str(calendar))
 
     print(f"ICS files saved to '{output_dir}'")
 
@@ -79,8 +82,20 @@ def parse_schedule_card(card_html):
         "from_time": None,
         "to_time": None,
         "equipment": None,
-        "flight_id": None
+        "flight_id": None,
+        "title": None,
+        "location": "391 Herndon Ave Suite A, Orlando, FL 32803"  # default location
     }
+
+    # Parse title from bold tag (if present)
+    bold_tag = soup.find("b")
+    if bold_tag and "Rental Reservation for" in bold_tag.text:
+        match = re.search(r"Rental Reservation for (.+?) at", bold_tag.text)
+        if match:
+            name = match.group(1)
+            flight_data["title"] = f"Reservation with {name}"
+        else:
+            flight_data["title"] = "Reservation"
 
     for row in rows:
         cells = row.find_all("td")
@@ -105,6 +120,7 @@ def parse_schedule_card(card_html):
     calendar_list.append(flight_data)
     print(flight_data)
     return flight_data
+
 
 def remove_duplicate_flights(calendar_list):
     seen_ids = set()
@@ -190,6 +206,11 @@ try:
         schedule_card = driver.find_element(By.CLASS_NAME, "sd")
         card_html = schedule_card.get_attribute("outerHTML")
         card_html_list.append(card_html)
+        print(card_html)
+
+        title_card = driver.find_element(By.ID, "showDetail")
+        card_html += title_card.get_attribute("outerHTML")
+
         parse_schedule_card(card_html)
         close_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, "//td[contains(text(), 'Close') and contains(@onclick, 'setCover')]"))
@@ -226,6 +247,11 @@ try:
             schedule_card = driver.find_element(By.CLASS_NAME, "sd")
             card_html = schedule_card.get_attribute("outerHTML")
             card_html_list.append(card_html)
+
+            
+            title_card = driver.find_element(By.ID, "showDetail")
+            card_html += title_card.get_attribute("outerHTML")
+
 
             parse_schedule_card(card_html)
 
