@@ -226,7 +226,7 @@ try:
             close_button.click()
 
     calendar_list = remove_duplicate_flights(calendar_list)
-    save_calendars_by_staff(calendar_list, output_dir="output_ics")
+    save_calendars_by_staff(calendar_list, output_dir="calendars")
 
 
     time.sleep(5)  # Watch it work
