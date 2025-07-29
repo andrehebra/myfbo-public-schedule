@@ -10,6 +10,8 @@ from bs4 import BeautifulSoup
 from ics import Calendar, Event
 import os
 from datetime import datetime
+from datetime import datetime
+import pytz
 
 from dotenv import load_dotenv
 
@@ -21,6 +23,9 @@ PASSWORD = os.getenv("MYFBO_PASSWORD")
 
 calendar_list = []
 def save_calendars_by_staff(calendar_list, output_dir="staff_calendars"):
+    # Set the timezone
+    eastern = pytz.timezone("America/New_York")
+
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
 
@@ -38,12 +43,16 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars"):
             event = Event()
             event.name = flight.get("title", "Flight")
 
-            # Parse "MM/DD/YY HH:MM" format and convert to ISO 8601
+            # Parse and localize datetime to Eastern Time
             try:
-                start_dt = datetime.strptime(flight.get("from_time"), "%m/%d/%y %H:%M")
-                end_dt = datetime.strptime(flight.get("to_time"), "%m/%d/%y %H:%M")
-                event.begin = start_dt.isoformat()
-                event.end = end_dt.isoformat()
+                naive_start = datetime.strptime(flight.get("from_time"), "%m/%d/%y %H:%M")
+                naive_end = datetime.strptime(flight.get("to_time"), "%m/%d/%y %H:%M")
+
+                start_dt = eastern.localize(naive_start)
+                end_dt = eastern.localize(naive_end)
+
+                event.begin = start_dt
+                event.end = end_dt
             except Exception as e:
                 print(f"Skipping event due to bad date format: {e}")
                 continue
@@ -186,7 +195,7 @@ try:
             EC.element_to_be_clickable((By.XPATH, "//td[contains(text(), 'Close') and contains(@onclick, 'setCover')]"))
         )
         close_button.click()
-    for i in range(10):
+    for i in range(5):
         driver.switch_to.parent_frame()  # Switch back to the main content
         WebDriverWait(driver, 10).until(
             EC.frame_to_be_available_and_switch_to_it((By.NAME, "tf"))
