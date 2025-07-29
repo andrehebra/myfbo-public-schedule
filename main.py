@@ -42,7 +42,7 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezon
 
         for flight in flights:
             event = Event()
-            event.name = flight.get("title", "Flight")
+            event.name = flight.get("title", "Flight")  # Use 'title' if available
 
             try:
                 start_dt_naive = datetime.strptime(flight.get("from_time"), "%m/%d/%y %H:%M")
@@ -58,8 +58,6 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezon
                 continue
 
             event.description = flight.get("equipment", "")
-
-            # Add default location if not specified
             event.location = flight.get("location") or default_location
 
             calendar.events.add(event)
@@ -69,6 +67,7 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezon
             f.write(str(calendar))
 
     print(f"ICS files saved to '{output_dir}'")
+
 
 
 def parse_schedule_card(card_html):
@@ -216,7 +215,7 @@ try:
             EC.element_to_be_clickable((By.XPATH, "//td[contains(text(), 'Close') and contains(@onclick, 'setCover')]"))
         )
         close_button.click()
-    for i in range(5):
+    for i in range(10):
         driver.switch_to.parent_frame()  # Switch back to the main content
         WebDriverWait(driver, 10).until(
             EC.frame_to_be_available_and_switch_to_it((By.NAME, "tf"))
