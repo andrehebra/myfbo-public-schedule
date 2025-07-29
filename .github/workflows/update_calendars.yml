@@ -28,7 +28,7 @@ jobs:
           MYFBO_USERNAME: ${{ secrets.MYFBO_USERNAME }}
           MYFBO_PASSWORD: ${{ secrets.MYFBO_PASSWORD }}
         run: |
-          python your_scraper_script.py
+          python main.py
 
       - name: Commit and push updated ICS files
         run: |
