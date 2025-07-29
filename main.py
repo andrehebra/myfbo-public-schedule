@@ -13,27 +13,6 @@ from datetime import datetime
 
 from dotenv import load_dotenv
 
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-import tempfile
-
-chrome_options = Options()
-
-# Create a unique temporary directory for user data
-user_data_dir = tempfile.mkdtemp()
-chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
-
-# Optional: run headless (recommended for CI)
-chrome_options.add_argument("--headless=new")  # or "--headless" for older versions
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--disable-gpu")
-
-service = Service(ChromeDriverManager().install())
-driver = webdriver.Chrome(service=service, options=chrome_options)
-
 
 load_dotenv()
 
@@ -207,7 +186,7 @@ try:
             EC.element_to_be_clickable((By.XPATH, "//td[contains(text(), 'Close') and contains(@onclick, 'setCover')]"))
         )
         close_button.click()
-    for i in range(1):
+    for i in range(10):
         driver.switch_to.parent_frame()  # Switch back to the main content
         WebDriverWait(driver, 10).until(
             EC.frame_to_be_available_and_switch_to_it((By.NAME, "tf"))
