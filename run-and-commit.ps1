@@ -17,5 +17,5 @@ while ($true) {
     Write-Host "Changes pushed. Sleeping for 3 hours..."
     
     # Wait 3 hours (10,800 seconds)
-    Start-Sleep -Seconds 10800
+    Start-Sleep -Seconds 2700
 }
