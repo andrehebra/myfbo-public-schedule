@@ -13,6 +13,11 @@ from datetime import datetime
 from datetime import datetime
 import pytz
 import re
+from dateutil.relativedelta import relativedelta
+from selenium.webdriver.support.ui import Select
+
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 
 from dotenv import load_dotenv
 
@@ -23,6 +28,76 @@ USERNAME = os.getenv("MYFBO_USERNAME")
 PASSWORD = os.getenv("MYFBO_PASSWORD")
 
 calendar_list = []
+
+def parse_reservations_from_table(reservation_table):
+    rows = reservation_table.find("tbody").find_all("tr")
+    reservations = []
+    i = 0
+
+    while i < len(rows):
+        row = rows[i]
+        cells = row.find_all("td")
+
+        # Check if this is a "full" row (not just continuation)
+        first_cell_text = cells[0].get_text(strip=True)
+
+        # Initialize flight data
+        flight = {
+            "from_time": None,
+            "to_time": None,
+            "equipment": None,
+            "flight_staff": None,
+            "student": None,
+            "type": None,
+            "base": None,
+            "remark": None,
+            "title": None,
+        }
+
+        # Parse main (first) row
+        flight["from_time"] = cells[1].get_text(strip=True)
+        flight["to_time"] = cells[2].get_text(strip=True)
+        flight["equipment"] = cells[4].get_text(strip=True)
+        flight["student"] = cells[5].get_text(strip=True)
+        flight["type"] = cells[6].get_text(strip=True)
+        flight["base"] = cells[7].get_text(strip=True)
+
+        # Try to get remark from title attribute of image (if present)
+        remark_img = cells[9].find("img") if len(cells) > 9 else None
+        if remark_img and remark_img.has_attr("title"):
+            flight["remark"] = remark_img["title"]
+
+        # Handle possible second row (with only pilot info)
+        if i + 1 < len(rows):
+            next_row = rows[i + 1]
+            next_cells = next_row.find_all("td")
+
+            # If the first cell is just a dash or empty, assume it's the continuation
+            if next_cells[0].get_text(strip=True) in ["", "–", "-"]:
+                flight["flight_staff"] = next_cells[4].get_text(strip=True)
+                i += 1  # Skip the second row
+            else:
+                # Otherwise treat this as a single-row reservation
+                flight["flight_staff"] = flight["equipment"]
+                flight["equipment"] = None
+        else:
+            flight["flight_staff"] = flight["equipment"]
+            flight["equipment"] = None
+
+        # Create a nice title
+        if flight["student"] and flight["flight_staff"]:
+            flight["title"] = f"Reservation with {flight['student']} and {flight['flight_staff']}"
+        elif flight["student"]:
+            flight["title"] = f"Reservation with {flight['student']}"
+        else:
+            flight["title"] = "Flight Reservation"
+
+        reservations.append(flight)
+        i += 1
+
+    calendar_list.extend(reservations)
+    return reservations
+
 def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezone_str="America/New_York"):
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
@@ -61,14 +136,14 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezon
             event.location = flight.get("location") or default_location
 
             calendar.events.add(event)
+        staff = str(staff)
+        safe_staff = re.sub(r"\s+", "", staff)
+        file_path = os.path.join(output_dir, f"{safe_staff}.ics")
 
-        file_path = os.path.join(output_dir, f"{staff}.ics")
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(str(calendar))
 
     print(f"ICS files saved to '{output_dir}'")
-
-
 
 def parse_schedule_card(card_html):
     soup = BeautifulSoup(card_html, "html.parser")
@@ -140,6 +215,15 @@ driver = webdriver.Chrome()
 # Go to the top-level page with <frameset>
 driver.get("https://prod.myfbo.com/link.asp?fbo=aoal")
 
+def getTable():
+    html = driver.page_source  # or however you're getting the HTML
+    soup = BeautifulSoup(html, "html.parser")
+
+    reservation_table = soup.find("table", id="TABLE_1")
+
+    reservations = parse_reservations_from_table(reservation_table)
+    print(reservations)
+
 try:
     # Wait for and switch to the login frame ("myfbo2")
     WebDriverWait(driver, 10).until(
@@ -178,90 +262,86 @@ try:
     home_tab.click()
 
     # navigate to my schedule page
-    driver.switch_to.parent_frame()  # Switch back to the main content
+    driver.switch_to.parent_frame()  
     WebDriverWait(driver, 10).until(
         EC.frame_to_be_available_and_switch_to_it((By.NAME, "wa"))
     )
 
-    my_schedule = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@onclick, \"pnm.oPen('../r/list_day_sched.asp?list_date=\")]")))
+    my_schedule = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id=\"mainbody\"]/div/div/fieldset[3]/div/button[1]")))
 
     my_schedule.click()
 
-    # get information from the table
-    ccrd_elements = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "ccrs")))
+    # time.sleep(5)  # Wait for the schedule page to load --> WE ARE AT THE RESERVATINOS LIST MENU NOW
 
-    main_window = driver.current_window_handle
+    ### --- ON RESERVATIONS LIST PAGE --- ###
 
-    #### loop through each schedule page and click on each CCRD element
-    card_html_list = []
+    # input date from
+    date_input = wait.until(EC.presence_of_element_located((By.NAME, "dfr")))
 
-    for j in range(len(ccrd_elements) - 1):
-        print(j)
-        ccrd_elements[j].click()
+    # Format today's date as MM/DD/YY
+    today_str = datetime.now().strftime("%m/%d/%y")
 
-        # Wait for the popup to load (class 'sd' inside a table)
-        wait.until(EC.presence_of_element_located((By.CLASS_NAME, "sd")))
-        # Get the outerHTML of the card container
-        schedule_card = driver.find_element(By.CLASS_NAME, "sd")
-        card_html = schedule_card.get_attribute("outerHTML")
-        card_html_list.append(card_html)
-        print(card_html)
+    # Clear and input the date
+    date_input.clear()
+    date_input.send_keys(today_str)
 
-        title_card = driver.find_element(By.ID, "showDetail")
-        card_html += title_card.get_attribute("outerHTML")
+    date_input = wait.until(EC.presence_of_element_located((By.NAME, "dto")))
 
-        parse_schedule_card(card_html)
-        close_button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, "//td[contains(text(), 'Close') and contains(@onclick, 'setCover')]"))
-        )
-        close_button.click()
-    for i in range(10):
+    one_month_later = (datetime.now() + relativedelta(months=1)).strftime("%m/%d/%y")
+
+    # Clear and input the date
+    date_input.clear()
+    date_input.send_keys(one_month_later)
+
+    # select KORL from dropdown
+    # Locate the dropdown element (replace with your actual locator if needed)
+    dropdown = Select(driver.find_element(By.NAME, "apt"))
+
+    # Select the option with value "KORL"
+    dropdown.select_by_value("KORL")
+
+    # click on the button to show date table
+    button = driver.find_element(By.XPATH, "//input[@onclick=\"actGo('all_schedule.asp?order=1&tor=F');\"]")
+    button.click()
+
+    time.sleep(3)
+
+    ### --- ON TABLE PAGE --- ###
+    hasNextPage = True
+    driver.switch_to.parent_frame()  # Switch back to the main content
+    WebDriverWait(driver, 10).until(
+        EC.frame_to_be_available_and_switch_to_it((By.NAME, "tf"))
+    )
+    try:
+        element = driver.find_element(By.XPATH, "//a[contains(@onclick, 'disablePrevNext()') and contains(@onclick, 'hNext.value')]")
+        hasNextPage = True
+    except NoSuchElementException:
+        hasNextPage = False
+    driver.switch_to.parent_frame()  # Switch back to the main content
+    WebDriverWait(driver, 10).until(
+        EC.frame_to_be_available_and_switch_to_it((By.NAME, "wa"))
+    )
+    getTable()
+    while hasNextPage:
         driver.switch_to.parent_frame()  # Switch back to the main content
         WebDriverWait(driver, 10).until(
             EC.frame_to_be_available_and_switch_to_it((By.NAME, "tf"))
         )
-
-
-        next_button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, '//a[contains(@onclick, "hNext.value")]'))
-        )
-        next_button.click()
-
+        try:
+            element = driver.find_element(By.XPATH, "//a[contains(@onclick, 'disablePrevNext()') and contains(@onclick, 'hNext.value')]")
+            element.click()
+            hasNextPage = True
+        except:
+            hasNextPage = False
         driver.switch_to.parent_frame()  # Switch back to the main content
         WebDriverWait(driver, 10).until(
             EC.frame_to_be_available_and_switch_to_it((By.NAME, "wa"))
         )
-
-        
-        ccrd_elements = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "ccrs")))
-        ccrd_elements = driver.find_elements(By.CLASS_NAME, "ccrd")
-
-        for j in range(len(ccrd_elements) - 1):
-
-            ccrd_elements[j].click()
-
-            # Wait for the popup to load (class 'sd' inside a table)
-            wait.until(EC.presence_of_element_located((By.CLASS_NAME, "sd")))
-            # Get the outerHTML of the card container
-            schedule_card = driver.find_element(By.CLASS_NAME, "sd")
-            card_html = schedule_card.get_attribute("outerHTML")
-            card_html_list.append(card_html)
-
-            
-            title_card = driver.find_element(By.ID, "showDetail")
-            card_html += title_card.get_attribute("outerHTML")
+        getTable()
 
 
-            parse_schedule_card(card_html)
-
-            
-
-            close_button = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//td[contains(text(), 'Close') and contains(@onclick, 'setCover')]"))
-            )
-            close_button.click()
-
-    calendar_list = remove_duplicate_flights(calendar_list)
+    time.sleep(5)
+    # calendar_list = remove_duplicate_flights(calendar_list)
     save_calendars_by_staff(calendar_list, output_dir="docs")
 
 
