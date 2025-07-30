@@ -192,7 +192,7 @@ def parse_schedule_card(card_html):
             flight_data["flight_id"] = cells[-1].get_text(strip=True)
 
     calendar_list.append(flight_data)
-    print(flight_data)
+    # print(flight_data)
     return flight_data
 
 
@@ -222,7 +222,7 @@ def getTable():
     reservation_table = soup.find("table", id="TABLE_1")
 
     reservations = parse_reservations_from_table(reservation_table)
-    print(reservations)
+    # print(reservations)
 
 try:
     # Wait for and switch to the login frame ("myfbo2")
