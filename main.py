@@ -38,9 +38,6 @@ def parse_reservations_from_table(reservation_table):
         row = rows[i]
         cells = row.find_all("td")
 
-        # Check if this is a "full" row (not just continuation)
-        first_cell_text = cells[0].get_text(strip=True)
-
         # Initialize flight data
         flight = {
             "from_time": None,
@@ -74,7 +71,14 @@ def parse_reservations_from_table(reservation_table):
 
             # If the first cell is just a dash or empty, assume it's the continuation
             if next_cells[0].get_text(strip=True) in ["", "–", "-"]:
-                flight["flight_staff"] = next_cells[4].get_text(strip=True)
+                flight_staff = next_cells[4].get_text(strip=True)
+
+                # Check for an <img> with a title in that same cell
+                staff_img = next_cells[4].find("img")
+                if staff_img and staff_img.has_attr("title"):
+                    flight_staff += f" ({staff_img['title'].strip()})"
+
+                flight["flight_staff"] = flight_staff
                 i += 1  # Skip the second row
             else:
                 # Otherwise treat this as a single-row reservation
@@ -98,6 +102,13 @@ def parse_reservations_from_table(reservation_table):
     calendar_list.extend(reservations)
     return reservations
 
+
+import os
+import re
+from datetime import datetime
+import pytz
+from ics import Calendar, Event
+
 def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezone_str="America/New_York"):
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
@@ -108,7 +119,7 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezon
     # Group flights by flight_staff
     staff_dict = {}
     for flight in calendar_list:
-        staff = flight.get("flight_staff", "unknown").strip().replace(" ", "_").lower()
+        staff = (flight.get("flight_staff") or "unknown").strip().replace(" ", "_").lower()
         staff_dict.setdefault(staff, []).append(flight)
 
     # Generate and save .ics files
@@ -117,33 +128,43 @@ def save_calendars_by_staff(calendar_list, output_dir="staff_calendars", timezon
 
         for flight in flights:
             event = Event()
-            event.name = flight.get("title", "Flight")  # Use 'title' if available
+            event.name = flight.get("title", "Flight")
 
             try:
                 start_dt_naive = datetime.strptime(flight.get("from_time"), "%m/%d/%y %H:%M")
                 end_dt_naive = datetime.strptime(flight.get("to_time"), "%m/%d/%y %H:%M")
-
                 start_dt = tz.localize(start_dt_naive)
                 end_dt = tz.localize(end_dt_naive)
-
                 event.begin = start_dt
                 event.end = end_dt
             except Exception as e:
                 print(f"Skipping event due to bad date format: {e}")
                 continue
 
-            event.description = flight.get("equipment", "")
+            # Build the description
+            description_parts = []
+            equipment = flight.get("equipment")
+            remark = flight.get("remark")
+
+            if equipment:
+                description_parts.append(equipment)
+            if remark:
+                description_parts.append(f"\n{remark}")
+
+            event.description = "\n".join(description_parts)
             event.location = flight.get("location") or default_location
 
             calendar.events.add(event)
-        staff = str(staff)
-        safe_staff = re.sub(r"\s+", "", staff)
+
+        # Clean up staff name for filename
+        safe_staff = re.sub(r"\s+", "", str(staff))
         file_path = os.path.join(output_dir, f"{safe_staff}.ics")
 
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(str(calendar))
 
     print(f"ICS files saved to '{output_dir}'")
+
 
 def parse_schedule_card(card_html):
     soup = BeautifulSoup(card_html, "html.parser")
@@ -175,6 +196,7 @@ def parse_schedule_card(card_html):
         cells = row.find_all("td")
         if not cells:
             continue
+        
 
         label = cells[0].get_text(strip=True)
 
@@ -191,6 +213,7 @@ def parse_schedule_card(card_html):
         elif "Flight" in cells[-1].text:
             flight_data["flight_id"] = cells[-1].get_text(strip=True)
 
+        print(flight_data)
     calendar_list.append(flight_data)
     # print(flight_data)
     return flight_data
