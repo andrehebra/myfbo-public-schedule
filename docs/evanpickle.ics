@@ -2,74 +2,74 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTEND:20250826T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250826T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:d9c89ce6-8962-4a18-9ef9-babe6823e260@d9c8.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250807T210000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250807T200000Z
-SUMMARY:Reservation with Austin ﻿Rigler and Evan Pickle
-UID:ea23c00b-5534-4339-bd1c-899d3a046c0e@ea23.org
-END:VEVENT
-BEGIN:VEVENT
 DTEND:20250804T143000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250804T133000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:36fdd0ef-2858-41ed-ab2c-54e07a8de4e4@36fd.org
+UID:11120afb-aa55-4e15-8c7b-31566ff398f9@1112.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250805T170000Z
+DTEND:20250828T210000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250805T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:c5d55286-f9fb-4d86-8b91-e05165e591c2@c5d5.org
+DTSTART:20250828T200000Z
+SUMMARY:Reservation with Austin ﻿Rigler and Evan Pickle
+UID:6e1ccd98-4aee-40a8-85e3-af60ebe8af77@6e1c.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250812T170000Z
+DTEND:20250805T200000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250812T160000Z
+DTSTART:20250805T190000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:69546cb7-5dba-4d3d-8dd8-4dfbcc89b705@6954.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250811T143000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250811T133000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:8847372f-e58f-4a47-8055-996ba5a6c971@8847.org
+UID:f9f1a79f-0cd5-4dc1-8583-b436ac637847@f9f1.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20250804T180000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250804T170000Z
 SUMMARY:Reservation with Andre ﻿Hebra and Evan Pickle
-UID:346764b8-73f4-40fa-9bfc-9ab2172a285b@3467.org
+UID:eaf90a9e-9cd9-4b8b-9545-b3707d1f3fb7@eaf9.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250811T153000Z
+DTEND:20250819T200000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250811T143000Z
-SUMMARY:Reservation with New Student Orientation ﻿KORL and Evan Pickle
-UID:f0114280-3712-437b-8d72-67647c0407fe@f011.org
+DTSTART:20250819T190000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:57f50820-6940-47e7-866d-3ba69a5e15d8@57f5.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250825T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250825T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:17c2de82-c91e-4732-b181-2536a4db867a@17c2.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250826T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250826T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:fcded5ad-4935-412e-a50f-4e5e3f08d1c1@fcde.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20250827T170000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250827T160000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:89b7e7e6-c952-4089-a3f8-b1a813e5f5bd@89b7.org
+UID:0705a33a-90ba-4125-bae7-df70396c19c3@0705.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250821T210000Z
+DTEND:20250804T153000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250821T200000Z
-SUMMARY:Reservation with Austin ﻿Rigler and Evan Pickle
-UID:50aff70b-bfac-4142-bd3c-46584112909f@50af.org
+DTSTART:20250804T143000Z
+SUMMARY:Reservation with New Student Orientation ﻿KORL and Evan Pickle
+UID:0b84bd53-c92c-4c72-8761-e50650e2438c@0b84.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250811T153000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250811T143000Z
+SUMMARY:Reservation with New Student Orientation ﻿KORL and Evan Pickle
+UID:9178faa3-701c-48e1-83f9-c10de50b5a95@9178.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nInstrument Evaluation 
@@ -77,119 +77,7 @@ DTEND:20250807T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250807T140000Z
 SUMMARY:Reservation with Jazten Minho ﻿Lokken and Evan Pickle
-UID:3ebfa6cf-5aa6-4a4c-98b0-88512da106b8@3ebf.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250820T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250820T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:c7325542-babf-4ac1-8d7b-15ff8306864e@c732.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250818T153000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250818T143000Z
-SUMMARY:Reservation with New Student Orientation ﻿KORL and Evan Pickle
-UID:4372272a-1916-4596-bec9-1c5aa2148ff2@4372.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250902T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250902T190000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:ce15bf2e-4c59-4be9-8ce8-b09ba8a01287@ce15.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250826T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250826T190000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:a069866f-a281-43b0-b416-70d44bde65c3@a069.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250901T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250901T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:05b85afc-2848-4cb7-9dd1-da738343729f@05b8.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250825T143000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250825T133000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:3f01c101-a736-423b-a335-264271a78235@3f01.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250819T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250819T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:f3582bbf-326b-40c7-b2f1-fcac75a279ca@f358.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250804T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250804T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:236256e8-f520-480c-b0d2-09297fbf4f56@2362.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250818T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250818T170000Z
-SUMMARY:Reservation with Andre ﻿Hebra and Evan Pickle
-UID:adc6c52b-862e-4862-8ca4-54c70b93a7f7@adc6.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250901T143000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250901T133000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:4a760899-6f87-47fd-9e82-6a0a943376d2@4a76.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250901T153000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250901T143000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:99e4f4c8-f755-496f-a166-60831ee08df8@99e4.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250902T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250902T190000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:028d31b8-12b4-4115-98b7-103945c2bb4b@028d.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250804T153000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250804T143000Z
-SUMMARY:Reservation with New Student Orientation ﻿KORL and Evan Pickle
-UID:11c4ad1e-735c-4669-a452-b83a45957f76@11c4.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250814T210000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250814T200000Z
-SUMMARY:Reservation with Austin ﻿Rigler and Evan Pickle
-UID:603427f4-3e4a-438e-895f-8b8cce2f3892@6034.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250902T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250902T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:a9039573-e199-4b63-8d6e-d0320935f6cd@a903.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250819T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250819T190000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:7b5e128d-95e1-496c-a6c4-97be0dd9184f@7b5e.org
+UID:9fdee5a0-8bc6-403b-8a78-c33c5db39e86@9fde.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nSSR Meeting 
@@ -197,63 +85,49 @@ DTEND:20250813T233000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250813T223000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:9a8d88c4-2dc4-4737-8eaa-d79375fc0755@9a8d.org
+UID:988c8764-0657-45bb-a83c-550f0231ec5d@988c.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250811T170000Z
+DTEND:20250902T200000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250811T160000Z
+DTSTART:20250902T190000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:60fce0d1-3ac2-46f8-8f4c-fa69a20a8605@60fc.org
+UID:99c45a99-60fb-4ef1-af8b-29e7d9898d08@99c4.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250811T180000Z
+DTEND:20250901T180000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250811T170000Z
+DTSTART:20250901T170000Z
 SUMMARY:Reservation with Andre ﻿Hebra and Evan Pickle
-UID:e2445988-9cb4-41e5-8d7c-89225b31c208@e244.org
+UID:ba28b961-e766-4e7f-975e-205723995d0a@ba28.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250805T200000Z
+DTEND:20250901T153000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250805T190000Z
+DTSTART:20250901T143000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:f4d03dcb-537c-425d-817a-bad7065e8981@f4d0.org
+UID:006cd98d-3269-4ca0-be48-ec813ecfd7d4@006c.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250825T180000Z
+DTEND:20250821T210000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250825T170000Z
-SUMMARY:Reservation with Andre ﻿Hebra and Evan Pickle
-UID:48661b48-cab7-44ca-bf33-9a3943e1da88@4866.org
+DTSTART:20250821T200000Z
+SUMMARY:Reservation with Austin ﻿Rigler and Evan Pickle
+UID:8a37d5fd-8b2f-400b-93fd-f059eb5a3b51@8a37.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20250813T170000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250813T160000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:b2037553-becd-4420-881e-8b55c4ef2986@b203.org
+UID:3aef89b3-20b7-45c4-9e4e-9f2e3805faac@3aef.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20250825T153000Z
+DTEND:20250818T153000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250825T143000Z
+DTSTART:20250818T143000Z
 SUMMARY:Reservation with New Student Orientation ﻿KORL and Evan Pickle
-UID:dc855a23-b345-4e29-9eff-f70963ce7b34@dc85.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250806T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250806T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:af8da5d7-2c8f-454e-a987-924e90785118@af8d.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250825T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250825T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:457cb1a5-c0a1-4132-b70b-ad694ae7ce95@457c.org
+UID:1b84bcfa-b72a-4ab1-85c3-2e0bb532b59f@1b84.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nSSR Meeting 
@@ -261,41 +135,167 @@ DTEND:20250827T233000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250827T223000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:0beeec2b-4dc3-4b1f-a195-d1f326a5b127@0bee.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250812T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250812T190000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:ef8f33bc-711f-4135-ad80-b50ebe155c2b@ef8f.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250828T210000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250828T200000Z
-SUMMARY:Reservation with Austin ﻿Rigler and Evan Pickle
-UID:6bb1d46d-b702-4931-a662-bb1a1a97e0c4@6bb1.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250901T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250901T170000Z
-SUMMARY:Reservation with Andre ﻿Hebra and Evan Pickle
-UID:d30e35d0-10f8-42d7-a6aa-ea920dbb91b9@d30e.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250818T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250818T160000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:8f05d12d-bc88-48e8-a312-6e5dce14175b@8f05.org
+UID:6dec80f0-26f9-4543-8731-7fb53e5b4c4a@6dec.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20250818T143000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250818T133000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
-UID:f487f370-c162-4987-ad0f-2c1ec009e7af@f487.org
+UID:020a444d-e211-44bf-b687-bfbb5fbcf297@020a.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250814T210000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250814T200000Z
+SUMMARY:Reservation with Austin ﻿Rigler and Evan Pickle
+UID:c38c93f6-83b6-412d-a222-5f6561fdda7c@c38c.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250812T200000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250812T190000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:2bd4c35e-cbcd-4f0c-8a4e-608d6b33a2f3@2bd4.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250805T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250805T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:f7766ebd-fed0-458c-b693-f4aee7d52b15@f776.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250807T210000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250807T200000Z
+SUMMARY:Reservation with Austin ﻿Rigler and Evan Pickle
+UID:51481f85-fa0f-4c84-bdf0-103058819297@5148.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250811T143000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250811T133000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:62d08fad-b44e-40cf-a4fd-2b07c368e9d4@62d0.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250811T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250811T170000Z
+SUMMARY:Reservation with Andre ﻿Hebra and Evan Pickle
+UID:23a5d969-cd8f-442f-9c41-bdea44957ed5@23a5.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250819T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250819T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:802556e8-f04e-4ac1-8f8f-f98a2485e588@8025.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250825T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250825T170000Z
+SUMMARY:Reservation with Andre ﻿Hebra and Evan Pickle
+UID:c3541fa2-36ea-4c0b-8e3a-6f01419bcb44@c354.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250825T153000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250825T143000Z
+SUMMARY:Reservation with New Student Orientation ﻿KORL and Evan Pickle
+UID:f6fc6d2a-73ec-43a9-9534-b412489dea4b@f6fc.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250901T143000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250901T133000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:a4367302-43e5-4d76-8398-e7a4d0ea6946@a436.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250812T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250812T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:a601e8ac-4a6d-4a4b-b89b-cce27bcedfae@a601.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250811T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250811T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:16419c14-7a8c-45ff-9d85-b01aad411316@1641.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250818T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250818T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:bedbc35b-d725-401a-9d14-05fdec0f2055@bedb.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250825T143000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250825T133000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:d667dd22-2f57-4856-8486-df6e7996e255@d667.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250806T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250806T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:4987e25a-ca1c-4f8a-a707-14273643391b@4987.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250820T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250820T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:2eaf6cff-f360-4721-aad7-109da28d1a93@2eaf.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250902T200000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250902T190000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:922513cc-298b-43db-8696-c176135ebd33@9225.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250826T200000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250826T190000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:47bb058f-5cfa-4c25-ae68-4ce7aa425205@47bb.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250804T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250804T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:8a0d3ee5-ac41-4fe5-bade-e49a4dff93be@8a0d.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250818T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250818T170000Z
+SUMMARY:Reservation with Andre ﻿Hebra and Evan Pickle
+UID:c5eb1c24-2305-4bf0-a59e-355b822d6601@c5eb.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250902T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250902T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:f3f811ab-453e-401d-9282-19ba80b611b4@f3f8.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250901T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250901T160000Z
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Evan Pickle
+UID:098b72dc-75c5-4d3d-9584-6fc14172f4a6@098b.org
 END:VEVENT
 END:VCALENDAR
