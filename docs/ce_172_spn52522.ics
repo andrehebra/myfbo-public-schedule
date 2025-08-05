@@ -2,19 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:\nCRM Time Build 'Flight Plan Management' Challenge 
-DTEND:20250809T020000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250808T230000Z
-SUMMARY:Reservation with Daniel ﻿Rodriguez and CE_172_SP N52522
-UID:49aa4086-46e6-49da-bd67-ce3caa287464@49aa.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:\nCSEL Checkride 
 DTEND:20250806T170000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250806T140000Z
 SUMMARY:Reservation with Mario ﻿Hernandez and CE_172_SP N52522
-UID:1aab34b1-8f49-48aa-b725-0ae8d4d7e1b0@1aab.org
+UID:3dd9ce2b-358c-4dda-b765-df6675636e5b@3dd9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nCRM Time Build 'Flight Plan Management' Challenge 
+DTEND:20250809T020000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250808T230000Z
+SUMMARY:Reservation with Daniel ﻿Rodriguez and CE_172_SP N52522
+UID:0c2d1b11-588a-4164-92cc-f883e4b9f7f9@0c2d.org
 END:VEVENT
 END:VCALENDAR
