@@ -2,25 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTEND:20250825T120000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250825T100000Z
+SUMMARY:Reservation with Diego Alonso ﻿Espinoza Garcia and CE_172_SP N464ER
+UID:ce992358-5abd-4ee3-aef3-4fe736c03a31@ce99.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:\nCRM Time Build 'Flight Plan Management' Challenge 
 DTEND:20250821T120000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250821T090000Z
 SUMMARY:Reservation with Daniel ﻿Rodriguez and CE_172_SP N464ER
-UID:fba2920a-3749-40f7-8347-d0a47ad3dcd6@fba2.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250822T140000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250822T120000Z
-SUMMARY:Reservation with Judson Taylor ﻿Hershiser and CE_172_SP N464ER
-UID:c74e1c32-77b7-48ea-bc0b-2aeedc7d1329@c74e.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250912T120000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250912T100000Z
-SUMMARY:Reservation with Emilio Andres ﻿Lopez and CE_172_SP N464ER
-UID:1b05e4eb-c1dc-49b0-b932-822ee51cd171@1b05.org
+UID:b7da13ca-70f8-4acf-92a9-deb89962c767@b7da.org
 END:VEVENT
 END:VCALENDAR
