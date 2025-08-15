@@ -2,11 +2,25 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTEND:20250827T230000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250827T213000Z
+SUMMARY:Reservation with Gary ﻿Haberland and AATD RDBirdF
+UID:549de521-ebd8-4ddf-b191-27d54efc42d6@549d.org
+END:VEVENT
+BEGIN:VEVENT
 DTEND:20250818T230000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250818T213000Z
 SUMMARY:Reservation with Gary ﻿Haberland and AATD RDBirdF
-UID:1b7f8956-baed-4c28-beb9-351ba04b47ff@1b7f.org
+UID:4543cb31-bada-42bd-9d63-8bd1737bf68e@4543.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250815T230000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250815T200000Z
+SUMMARY:Reservation with Daniel ﻿Rodriguez and AATD RDBirdF
+UID:3733a45a-c8e9-4afe-9a89-4262dacd61a4@3733.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nInstrument Phase 4 progress check 
@@ -14,14 +28,7 @@ DTEND:20250819T180000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250819T160000Z
 SUMMARY:Reservation with Robert ﻿LeCorgne and AATD RDBirdF
-UID:afdbead0-e621-4a6d-9fa2-1ee3aeda71b7@afdb.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250815T230000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250815T200000Z
-SUMMARY:Reservation with Daniel ﻿Rodriguez and AATD RDBirdF
-UID:f65f69af-02d0-401b-a3c1-ec7e4c07cf06@f65f.org
+UID:53fa8455-dde7-4dd3-8f35-5ee7f9e0061b@53fa.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nRyanne Long\, Emma Mathes 
@@ -29,13 +36,6 @@ DTEND:20250815T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250815T120000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and AATD RDBirdF
-UID:a61970cd-ccc8-43e8-8d65-31888e05c0e8@a619.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20250827T230000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250827T213000Z
-SUMMARY:Reservation with Gary ﻿Haberland and AATD RDBirdF
-UID:be39d1db-41a0-4db9-acb7-8e64a0938b27@be39.org
+UID:11b0ab7a-cb04-4082-b7fb-f7f24d3dc5ac@11b0.org
 END:VEVENT
 END:VCALENDAR
