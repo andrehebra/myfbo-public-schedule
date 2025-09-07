@@ -3,27 +3,11 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
-DTEND:20250918T160000Z
+DTEND:20250911T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250918T140000Z
+DTSTART:20250911T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:706770d2-ba17-4418-b2d0-9cec80b4c347@7067.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20250925T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250925T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:39aa6e88-4aec-41ac-a377-0e78b1bef387@39aa.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20250916T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250916T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:e359a2b2-b06c-465d-82f7-f1d05f44105f@e359.org
+UID:9b4565fa-b6cb-4d5b-9809-f92072c4b247@9b45.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -31,15 +15,7 @@ DTEND:20251002T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251002T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:098ee536-57f5-4d0b-bee3-06a104256660@098e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20250909T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250909T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:a2ee957f-c92d-4660-b0e3-902823b31107@a2ee.org
+UID:fa6cc7cd-41a1-46ba-bd70-8311cbd79f2d@fa6c.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -47,15 +23,15 @@ DTEND:20251007T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251007T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:aa4f2eee-4017-47f3-814f-e6e9061ad13a@aa4f.org
+UID:48bfad17-f744-4207-9bf3-7385876e24fa@48bf.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
-DTEND:20250911T160000Z
+DTEND:20250925T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250911T140000Z
+DTSTART:20250925T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:db2aa087-7573-429a-899b-34a808f1d25d@db2a.org
+UID:b469d22f-14bc-4103-8121-db40c832762b@b469.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -63,7 +39,31 @@ DTEND:20250923T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250923T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:1a831522-3c15-49f6-ba22-36b072259213@1a83.org
+UID:5d470158-f1c6-4937-b7b7-3c62bb6f0fa8@5d47.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20250909T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250909T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:a99334a7-d05a-4c5d-b40c-9983a2946782@a993.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20250916T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250916T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:4c220f66-995c-4d0a-87d1-b998ce588af4@4c22.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20250918T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250918T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:639a5893-01b6-446c-9d41-b655a37abab5@639a.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -71,6 +71,6 @@ DTEND:20250930T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250930T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:582e59e0-0e66-4517-8594-c8b07e1997bc@582e.org
+UID:144d41cf-116c-4660-a81f-ab57f1cd1e20@144d.org
 END:VEVENT
 END:VCALENDAR
