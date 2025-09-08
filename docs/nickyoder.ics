@@ -3,27 +3,19 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
+DTEND:20250916T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250916T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:6d1dc76c-8a66-45ed-b181-17fed4585303@6d1d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
 DTEND:20250923T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250923T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:c53ff089-a359-4340-85cf-bf8e8844f72d@c53f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20251007T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251007T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:1e9e6c82-f980-467f-82f1-f6cce9333034@1e9e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20250909T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250909T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:dd660923-13cc-41f9-9ac6-dc1a967605fd@dd66.org
+UID:f68a8ac4-6aa7-467d-bec7-d7c967c17c9e@f68a.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -31,15 +23,7 @@ DTEND:20250918T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250918T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:0c3da431-b9fb-4023-8c3a-3be6c5d7633b@0c3d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20250930T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250930T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:16c3f421-924d-48cd-bc04-e9b481b6c8be@16c3.org
+UID:9e4bd527-c67f-4d3c-9505-edefd07981a6@9e4b.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -47,15 +31,15 @@ DTEND:20250925T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250925T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:4ef7c968-cc7c-454d-a42a-6bd86c948f7c@4ef7.org
+UID:0e5b713f-228f-402e-a69b-b6a0148f680d@0e5b.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
-DTEND:20250911T160000Z
+DTEND:20251007T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250911T140000Z
+DTSTART:20251007T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:8e2d0bd2-5b69-4147-bd74-ebc3e3ec2110@8e2d.org
+UID:8c14249e-50ad-4bc8-8cbd-8990215a0445@8c14.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -63,14 +47,30 @@ DTEND:20251002T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251002T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:5eed033f-55d6-40fc-8237-d53c49b49543@5eed.org
+UID:3f99ec54-8bba-463f-9e09-3d96c54103fb@3f99.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
-DTEND:20250916T160000Z
+DTEND:20250909T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250916T140000Z
+DTSTART:20250909T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:2f2ee144-40ed-4272-95da-d46a9d4a61b7@2f2e.org
+UID:33a0c179-4d62-446f-a39b-2aad0714ea30@33a0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20250911T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250911T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:53287f7b-b862-4c35-a7c9-5be42d34eef4@5328.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20250930T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250930T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:b04b23f1-a4a5-4ce6-b4d1-9782acc3fbfd@b04b.org
 END:VEVENT
 END:VCALENDAR
