@@ -3,27 +3,19 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
+DTEND:20250925T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250925T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:6219bfaa-50ec-4d9b-add4-f09bf33cc80d@6219.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
 DTEND:20250918T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250918T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:7fc9bcdc-d63f-47e3-bd67-373b483f6443@7fc9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20251002T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251002T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:86f38ac3-d0ef-4af3-940f-f195de439ba2@86f3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20250923T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250923T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:d2973f44-bc90-43f1-b759-8f1a95d58b7f@d297.org
+UID:4eee8567-a53d-459d-8b9d-40dd61165a06@4eee.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -31,31 +23,7 @@ DTEND:20251007T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251007T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:834a69a0-12ab-4adb-b7e6-eb817167b5b3@834a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20251009T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251009T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:38c82a0e-4ad8-4cac-b8b8-8a9030eeb70a@38c8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20250930T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250930T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:555cadb3-6c43-4eaf-b8e4-bf45921475c3@555c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nIFR Ground school 
-DTEND:20251016T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251016T140000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:c2cef1cd-76f4-400d-867c-3dcd166b76b4@c2ce.org
+UID:5a594c83-7ced-466f-a322-a17aaaf1d66d@5a59.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
@@ -63,14 +31,46 @@ DTEND:20251014T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251014T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:3404b2f4-88c6-4296-9077-eb3309def24d@3404.org
+UID:97208f48-9d5c-481f-b4f3-2f8213204039@9720.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nIFR Ground school 
-DTEND:20250925T160000Z
+DTEND:20251002T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250925T140000Z
+DTSTART:20251002T140000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
-UID:c309b3f2-36c3-452b-82fb-44074d84effe@c309.org
+UID:c31af08f-5e01-4dc8-bd44-fa49227abef2@c31a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20250923T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250923T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:56203fe0-042f-4f42-820c-a00f1e39211a@5620.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20251009T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251009T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:91eb571c-a53e-4018-8336-6a974a3be4dd@91eb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20251016T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251016T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:5c04f93f-25b2-4926-834c-2f19e46992e1@5c04.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nIFR Ground school 
+DTEND:20250930T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250930T140000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and Nick Yoder
+UID:164c93b8-841b-41d8-a259-d0a186014f77@164c.org
 END:VEVENT
 END:VCALENDAR
