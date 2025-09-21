@@ -2,18 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTEND:20250925T120000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20250925T100000Z
-SUMMARY:Reservation with Jonnier Alexander ﻿Arango Alvarez and CE_172_SP N6064R
-UID:92a72b4f-afa4-46e3-b48c-3981727197ca@92a7.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:\n2nd solo 
 DTEND:20250924T000000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250923T220000Z
 SUMMARY:Reservation with Daniel Patrick ﻿Weis and CE_172_SP N6064R
-UID:6cdddba0-8a1e-482c-bed2-0734aa2b3265@6cdd.org
+UID:bed523ee-ebec-4a98-a192-6bf63557bbd8@bed5.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250925T120000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250925T100000Z
+SUMMARY:Reservation with Jonnier Alexander ﻿Arango Alvarez and CE_172_SP N6064R
+UID:3e9fb184-3874-49ff-9ae4-e02dedc2b987@3e9f.org
 END:VEVENT
 END:VCALENDAR
