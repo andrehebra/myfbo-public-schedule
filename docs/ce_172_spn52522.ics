@@ -2,12 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTEND:20250927T200000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20250927T180000Z
+SUMMARY:Reservation with Ryan ﻿Drozd and CE_172_SP N52522
+UID:a11b6def-6cdb-4be6-a8b1-8592d0cea4cd@a11b.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:\nWanting to reset night currency. (Still night current) 
 DTEND:20250924T023000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250924T003000Z
 SUMMARY:Reservation with Evan ﻿Knapsted and CE_172_SP N52522
-UID:498429d9-661c-47c5-8125-5dcb54f9fd14@4984.org
+UID:2acb91de-7ceb-4795-b47c-31a7b3f63bbd@2acb.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nLong Solo cross country 
@@ -15,6 +22,6 @@ DTEND:20250927T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20250927T120000Z
 SUMMARY:Reservation with Jonathon ﻿Love and CE_172_SP N52522
-UID:133fc865-bf90-4b7f-be9e-3751831b7541@133f.org
+UID:c275fd75-63bd-4634-9445-85a7867ad8b9@c275.org
 END:VEVENT
 END:VCALENDAR
