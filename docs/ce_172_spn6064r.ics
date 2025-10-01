@@ -2,11 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTEND:20251027T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251027T160000Z
+SUMMARY:Reservation with Lauren Renee ﻿Martinelli and CE_172_SP N6064R
+UID:f0abc4b9-c169-4fb1-a55d-9044fb80db22@f0ab.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:\nLong Solo XC 
 DTEND:20251003T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251003T120000Z
 SUMMARY:Reservation with Justin Andrew Manor ﻿Garrow and CE_172_SP N6064R
-UID:c7dcd9bd-3387-4761-bd74-8ae6eb375ada@c7dc.org
+UID:afdfc227-4508-4860-8463-a3aee7b9e915@afdf.org
 END:VEVENT
 END:VCALENDAR
