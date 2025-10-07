@@ -2,19 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:\nXC time building 
-DTEND:20251009T230000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251009T200000Z
-SUMMARY:Reservation with Drew Harrison ﻿Kelly and CE_172_SP N24108
-UID:8fdd708a-3b6f-4775-994f-1d06418b6470@8fdd.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:\nStudent Solo Long XC 
 DTEND:20251008T160000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251008T120000Z
 SUMMARY:Reservation with Justin Andrew Manor ﻿Garrow and CE_172_SP N24108
-UID:d27338b3-04c5-43bc-bef5-a73f890ad61a@d273.org
+UID:bca63140-d85f-4682-9627-196a2b310c4f@bca6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nXC time building 
+DTEND:20251009T230000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251009T200000Z
+SUMMARY:Reservation with Drew Harrison ﻿Kelly and CE_172_SP N24108
+UID:bbdadf4f-d1fa-40ff-aa32-2a96a5c9faa6@bbda.org
 END:VEVENT
 END:VCALENDAR
