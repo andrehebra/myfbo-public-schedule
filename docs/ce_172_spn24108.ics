@@ -2,19 +2,26 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:\nStudent Solo Long XC 
-DTEND:20251008T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251008T120000Z
-SUMMARY:Reservation with Justin Andrew Manor ﻿Garrow and CE_172_SP N24108
-UID:fcd4af46-2beb-444a-92fd-fbbb15b2cfb3@fcd4.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:\nXC time building 
 DTEND:20251009T230000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251009T200000Z
 SUMMARY:Reservation with Drew Harrison ﻿Kelly and CE_172_SP N24108
-UID:8ee3010d-4ad2-44d7-bc1e-b3d8d429a532@8ee3.org
+UID:ee26aabf-5a23-417b-8fd2-0dcdd7656c35@ee26.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251011T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251011T140000Z
+SUMMARY:Reservation with Raphael Posegger ﻿Taveira and CE_172_SP N24108
+UID:281dc7d7-be4d-48ab-952f-5c843534c6e2@281d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nStudent Solo Long XC 
+DTEND:20251008T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251008T120000Z
+SUMMARY:Reservation with Justin Andrew Manor ﻿Garrow and CE_172_SP N24108
+UID:f5665fca-d92f-4d0a-8ebf-e4c435cec503@f566.org
 END:VEVENT
 END:VCALENDAR
