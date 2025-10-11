@@ -2,25 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTEND:20251017T033000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251016T100000Z
+SUMMARY:Reservation with Plane ﻿Sense and AATD RDBirdF
+UID:e0644e15-21b4-4a03-830f-88e412013841@e064.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:\nMallory Henninger / Primary secondary instrument proficiency -evan 
 DTEND:20251013T180000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251013T160000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and AATD RDBirdF
-UID:087fb61c-12e0-4e82-bd27-6e918decbd89@087f.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251017T033000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251016T100000Z
-SUMMARY:Reservation with Plane ﻿Sense and AATD RDBirdF
-UID:00a2f1d7-0bf6-4746-9dc1-07dcf8a7b2d0@00a2.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251109T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251109T160000Z
-SUMMARY:Reservation with Nathan ﻿Mann and AATD RDBirdF
-UID:21dc67b8-aceb-4211-a3cc-2fb5e0efe2c0@21dc.org
+UID:ba8fa7e8-412c-442e-872b-7b62e808df9f@ba8f.org
 END:VEVENT
 END:VCALENDAR
