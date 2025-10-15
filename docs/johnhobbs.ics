@@ -2,54 +2,82 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTEND:20251025T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251025T140000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:8499e870-98ff-45bf-8532-2c87c50cb9fd@8499.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251101T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251101T140000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:662dc5d0-cb3f-45f4-bc7e-7d71e963b6e1@662d.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251213T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251213T150000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:ab2b52e6-3e14-4c2d-b8f8-9e3cc28541d3@ab2b.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:\nCFII Group Ground 
 DTEND:20251028T140000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251028T120000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:55ba2f0a-7c5c-46b9-b148-ba17d9dc8ba5@55ba.org
+UID:e86ceef4-b748-4ba5-bea8-bf1107d2669d@e86c.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20251108T190000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251108T170000Z
 SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
-UID:61435c2b-58d0-4e41-aacf-6f34a3b52a4b@6143.org
+UID:b4c81e31-61e0-4f30-9448-50d40b5726aa@b4c8.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20251211T190000Z
+DTEND:20251025T180000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251211T170000Z
+DTSTART:20251025T160000Z
+SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
+UID:dfbc0158-b27f-45f2-b86a-4c259902b4b8@dfbc.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251122T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251122T150000Z
 SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:e709811a-7895-4f4a-8ca7-3bf8a82cc239@e709.org
+UID:d65cf172-4591-4cab-9b77-a6910de92e50@d65c.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251122T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251122T170000Z
+SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
+UID:2f383f03-a0d6-49dd-b256-68bd88250d61@2f38.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251028T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251028T160000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:b7a63281-2b57-4dd2-9baa-3afcabd31347@b7a6.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251108T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251108T150000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:79404526-f0fa-41b7-89aa-8db5960869cd@7940.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251016T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251016T160000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:86075046-91d2-4398-b518-9fa77ee4631e@8607.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251129T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251129T150000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:e86300fa-56ec-4405-b2f5-5296024d02a0@e863.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20251206T170000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251206T150000Z
 SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:e2f71062-c44f-471b-894d-0f9a113dd417@e2f7.org
+UID:a106cfd8-0512-4e21-8809-25b103aefb54@a106.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251213T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251213T150000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:9689b00e-bdc7-4fb5-91f9-06048c8f2135@9689.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nCFII Group Ground 
@@ -57,22 +85,28 @@ DTEND:20251030T140000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251030T120000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:0e40af61-67ab-430b-ba10-e298d27da79a@0e40.org
+UID:9b847597-08a4-46b8-b94f-e471e5f4d87f@9b84.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251106T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251106T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:9fe2c6cf-6f51-4323-bd83-ae8c4ad199eb@9fe2.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251209T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251209T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:3f0db183-88cb-4577-85c3-8b586bc66eb4@3f0d.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20251023T180000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251023T160000Z
 SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:1f95fae3-bb87-48a3-9822-7c8442907798@1f95.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nCFII Group Ground 
-DTEND:20251025T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251025T180000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:2e1febca-193a-46dc-9441-265ff2a55980@2e1f.org
+UID:711197e7-9278-4b70-ae1e-bc6d09d9583f@7111.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nCFII Group Ground 
@@ -80,163 +114,84 @@ DTEND:20251016T140000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251016T120000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:1078c46f-8b4b-4bcc-ae4e-32081023f117@1078.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251018T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251018T140000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:c15caa22-b8fa-4b60-ab19-e54c1dd73b98@c15c.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251104T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251104T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:d6b6fa0d-e9f5-4798-bfe2-7624db3148c7@d6b6.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251122T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251122T170000Z
-SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
-UID:68ad20d1-9448-41de-a7d6-575f82740642@68ad.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251120T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251120T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:a1b0b417-54a7-4452-90fa-165bfbf43c8a@a1b0.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251018T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251018T160000Z
-SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
-UID:12f61c59-c5f8-4f2e-b67e-58a89b6d045a@12f6.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251101T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251101T160000Z
-SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
-UID:10a3d63e-957e-473d-b395-2ad02e87c659@10a3.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251106T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251106T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:c94c2468-6e02-4af8-86d0-41436cf55780@c94c.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251129T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251129T150000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:caf87e21-e286-46ff-9934-e6952eaf65b1@caf8.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251108T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251108T150000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:e2ca5d5f-1b20-492c-a629-393092ddbd27@e2ca.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nCFII Group Ground 
-DTEND:20251021T140000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251021T120000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:686aadda-d880-4120-8adb-6e0e0357ad1a@686a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nCFII Group Ground 
-DTEND:20251018T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251018T180000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:f03f5ba3-da62-4ca5-a397-37c209cf1d16@f03f.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251028T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251028T160000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:008c2b74-1560-4cc2-b6e5-06619476e7e0@008c.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251202T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251202T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:d2b0645a-5f39-4f5d-a39e-5b3034263a08@d2b0.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251209T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251209T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:8c3c4f4e-ceb7-4766-b6ad-5bf7151fda9e@8c3c.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251025T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251025T160000Z
-SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
-UID:8918ee4a-4704-403a-b0e3-8c26a41c0f82@8918.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251118T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251118T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:65afb8cc-b7a4-4e07-84ba-a0180e0715ca@65af.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251115T170000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251115T150000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:220ad2ab-e941-4cb1-8b8f-d6411577ac70@220a.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251016T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251016T160000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:c6ffd276-8d36-43e8-8a50-e9968f593266@c6ff.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251125T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251125T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:caa161b6-a804-4313-8f79-857360e610e8@caa1.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251021T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251021T160000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:dab1cc7d-dcbe-4d53-bdc6-0739df3efdbd@dab1.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251030T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251030T160000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:50988e7c-9e11-4227-85dc-30932139ad6c@5098.org
+UID:97b224f8-edb7-4e12-8fad-69ac605f9103@97b2.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20251115T190000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251115T170000Z
 SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
-UID:2a8f9bf0-1c39-4b9b-a1b9-eaf5985f61cc@2a8f.org
+UID:1d874ebd-97b0-4a5f-8dfa-92dacf4ac584@1d87.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251018T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251018T140000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:62c3861b-115b-4135-b6ab-6706560e00e0@62c3.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251015T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251015T160000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
+UID:0197a748-e86e-4a4b-9e99-cdcfc4b330d2@0197.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251115T170000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251115T150000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:c6d1d2eb-eca8-4084-86db-c48f004694ac@c6d1.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251127T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251127T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:a77596d6-d533-4017-bf95-5f911f899eca@a775.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251101T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251101T140000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:de3816ca-8195-425d-9356-46d3972ab3f3@de38.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251118T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251118T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:8f791bcb-839c-4bd9-9f2b-c273f83cd9f5@8f79.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251018T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251018T160000Z
+SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
+UID:b862a297-6a57-42b4-96e2-8476e3768baf@b862.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251030T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251030T160000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:8261f721-ea3a-458a-ab40-5a2a89b949ea@8261.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251104T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251104T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:78a9cb92-e957-40f3-9d1f-a8e8cf326ac1@78a9.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251111T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251111T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:b3e4d51d-5537-4d18-a965-d78e0e19a001@b3e4.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nCFII Group Ground 
@@ -244,55 +199,100 @@ DTEND:20251023T140000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251023T120000Z
 SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:a37097e4-2c18-4ae7-816e-e66b1690ef71@a370.org
+UID:a68e06e1-46ec-4c74-9ad8-4faf81634f03@a68e.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20251015T180000Z
+DTEND:20251120T190000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251015T160000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:9f00d808-6e14-4174-b753-e455cc8c774a@9f00.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251127T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251127T170000Z
+DTSTART:20251120T170000Z
 SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:4a6c6756-1ec3-4e1f-9283-53b16b3ca807@4a6c.org
+UID:a1e816de-71ef-48ea-ba12-989fae9841f8@a1e8.org
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20251122T170000Z
+DTEND:20251211T190000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251122T150000Z
+DTSTART:20251211T170000Z
 SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:94b1e8f1-bb71-4f70-bfd3-b577c91db567@94b1.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251111T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251111T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:00b5977a-610f-4996-b5c2-6a7b2e0f20e8@00b5.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251017T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251017T160000Z
-SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
-UID:815ab400-a540-418d-96fb-d9a96c7443f4@815a.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20251204T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251204T170000Z
-SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:256ea62a-ad69-4a30-bbdc-daca7a3bfd42@256e.org
+UID:8d2dcf75-a2d6-45d6-8ea6-e3e77217b50b@8d2d.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20251113T190000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251113T170000Z
 SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
-UID:a0f0f4cb-3fef-41ac-a483-ad05bc29d961@a0f0.org
+UID:fd163896-f1f7-420e-9514-40df1492625f@fd16.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251025T160000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251025T140000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:f6d8601e-0496-4993-a2fd-74a826913894@f6d8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nCFII Group Ground 
+DTEND:20251025T200000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251025T180000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
+UID:203925bf-a9ed-421d-9acb-5489df98156c@2039.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nCFII Group Ground 
+DTEND:20251021T140000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251021T120000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
+UID:1ccdf40b-afed-4176-86b2-119c14a5b8c4@1ccd.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251101T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251101T160000Z
+SUMMARY:Reservation with Private Pilot ﻿Ground School and John Hobbs
+UID:c6e92979-58a2-4857-a469-bcf00ee8aac1@c6e9.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251125T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251125T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:fe8d7a96-d136-463e-9544-282b462517c1@fe8d.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251204T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251204T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:e09633dc-9573-4beb-bc98-4b36d7ad4400@e096.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251017T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251017T160000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
+UID:7b52606d-1eb0-49cf-8fbc-e1af0482355c@7b52.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nCFII Group Ground 
+DTEND:20251018T200000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251018T180000Z
+SUMMARY:Reservation with Instrument Rating ﻿Ground School and John Hobbs
+UID:ba9552ff-e30e-4ae7-8ed5-f7b66e72bbb7@ba95.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251021T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251021T160000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:aecda416-0fbb-42a3-96fb-d01b265c50cb@aecd.org
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251202T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251202T170000Z
+SUMMARY:Reservation with Commercial ﻿Ground School and John Hobbs
+UID:5bcd9477-7889-4e21-91d8-bf5b3c8b8a8e@5bcd.org
 END:VEVENT
 END:VCALENDAR
