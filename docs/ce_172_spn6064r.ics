@@ -2,19 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:\nRyan Goldberg flying to KISM to pick up Instructor 
-DTEND:20251202T190000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20251202T170000Z
-SUMMARY:Reservation with ﻿Maintenance and CE_172_SP N6064R
-UID:d5a434d2-d5e9-4ae2-b1f9-f3906d2f944e@d5a4.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:\nNight Currency 
 DTEND:20251204T010000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20251203T230000Z
 SUMMARY:Reservation with Mitchell ﻿Baumgardner and CE_172_SP N6064R
-UID:b25570a4-d6c4-4c98-860f-0a945288bbf8@b255.org
+UID:6a93b510-d5e5-42bf-8c6a-8baf06782f2a@6a93.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nRyan Goldberg flying to KISM to pick up Instructor 
+DTEND:20251202T190000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20251202T170000Z
+SUMMARY:Reservation with ﻿Maintenance and CE_172_SP N6064R
+UID:d287bbd7-3838-489d-a481-b0b6d50357db@d287.org
 END:VEVENT
 END:VCALENDAR
