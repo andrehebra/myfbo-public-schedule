@@ -3,11 +3,19 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:\nPrivate Pilot Ground School 
+DTEND:20260115T210000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20260115T190000Z
+SUMMARY:Reservation with Private Pilot ﻿Ground School and Chase Harden
+UID:be651daa-5db9-4000-b254-816e24eb1d93@be65.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nPrivate Pilot Ground School 
 DTEND:20260122T210000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20260122T190000Z
 SUMMARY:Reservation with Private Pilot ﻿Ground School and Chase Harden
-UID:7844025e-233c-4890-9591-e13ce6b8a13f@7844.org
+UID:a07fc1d4-f488-475a-ae75-fa13ae0bbbaa@a07f.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nPrivate Pilot Ground School 
@@ -15,14 +23,6 @@ DTEND:20260129T210000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20260129T190000Z
 SUMMARY:Reservation with Private Pilot ﻿Ground School and Chase Harden
-UID:ca608c02-f86b-4214-a915-6f8b77ce8c22@ca60.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nPrivate Pilot Ground School 
-DTEND:20260115T210000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260115T190000Z
-SUMMARY:Reservation with Private Pilot ﻿Ground School and Chase Harden
-UID:421fa05e-dded-46f9-9fd3-2adfe86e7bb9@421f.org
+UID:1470f88d-32de-481d-b3ab-8a9797068811@1470.org
 END:VEVENT
 END:VCALENDAR
