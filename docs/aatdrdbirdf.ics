@@ -2,12 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:\nIFR currency  
-DTEND:20260218T170000Z
+DESCRIPTION:\nCurrency  
+DTEND:20260218T010000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260218T150000Z
-SUMMARY:Reservation with Daniel ﻿Rodriguez and AATD RDBirdF
-UID:5aa15cfc-b22b-42b7-b663-600fb29c5a73@5aa1.org
+DTSTART:20260217T230000Z
+SUMMARY:Reservation with Nanette Emelinda ﻿Disla and AATD RDBirdF
+UID:e33c7be3-d66c-4bb6-afc6-d04974e1b727@e33c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\nPlane Sense Interviews 
+DTEND:20260416T220000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20260416T100000Z
+SUMMARY:Reservation with ﻿Plane Sense and AATD RDBirdF
+UID:2ef7117f-1c03-4e83-accb-ef03c9a28ed1@2ef7.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nPlane Sense Interviews 
@@ -15,7 +23,7 @@ DTEND:20260415T220000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20260415T100000Z
 SUMMARY:Reservation with ﻿Plane Sense and AATD RDBirdF
-UID:8ba88054-1a99-44d8-a6c5-7078b06fdab9@8ba8.org
+UID:1c36301b-ef49-4928-8c56-d57b9c380dfd@1c36.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\nPlane Sense Interviews 
@@ -23,29 +31,21 @@ DTEND:20260416T220000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20260416T100000Z
 SUMMARY:Reservation with ﻿Plane Sense and AATD RDBirdF
-UID:0a9c2d21-4654-45a2-9387-953ec2a7f201@0a9c.org
+UID:ff32f4b4-b6f4-4457-92b9-3d32f5b76cc9@ff32.org
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20260218T150000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20260218T140000Z
 SUMMARY:Reservation with Judson Taylor ﻿Hershiser and AATD RDBirdF
-UID:6d1e07ae-a076-4552-a4c2-a45ee36e43eb@6d1e.org
+UID:31ed6d80-0af4-47c9-a9ee-0726b06de7bc@31ed.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\nPlane Sense Interviews 
-DTEND:20260416T220000Z
+DESCRIPTION:\nIFR currency  
+DTEND:20260218T170000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260416T100000Z
-SUMMARY:Reservation with ﻿Plane Sense and AATD RDBirdF
-UID:ad4ec12d-c664-4ac8-984b-f15af3de66af@ad4e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:\nCurrency  
-DTEND:20260218T010000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260217T230000Z
-SUMMARY:Reservation with Nanette Emelinda ﻿Disla and AATD RDBirdF
-UID:b4b47b4e-97f9-4fed-aa21-cedcdb24e51d@b4b4.org
+DTSTART:20260218T150000Z
+SUMMARY:Reservation with Daniel ﻿Rodriguez and AATD RDBirdF
+UID:557c9123-e2da-4849-a043-8f9ddee34859@557c.org
 END:VEVENT
 END:VCALENDAR
