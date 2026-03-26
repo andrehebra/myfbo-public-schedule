@@ -2,18 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTEND:20260326T180000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20260326T160000Z
+SUMMARY:Reservation with Edwin ﻿Garcia Melendez and Andre Hebra
+UID:fe854fe9-5822-4b31-8fed-2907c2ee8462@fe85.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:CE_172_SP N6064R\n\nCAX EOC Flight 
 DTEND:20260326T210000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20260326T180000Z
 SUMMARY:Reservation with Jennifer ﻿Richoux and Andre Hebra
-UID:b69aa461-c54d-4f3a-9581-831d5bbadc88@b69a.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260326T180000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260326T160000Z
-SUMMARY:Reservation with Edwin ﻿Garcia Melendez and Andre Hebra
-UID:a2b823a2-eb6b-40b3-8a13-8208cd276928@a2b8.org
+UID:1fdb25f8-1f57-44c3-8ce1-2b34bb54b2d9@1fdb.org
 END:VEVENT
 END:VCALENDAR
