@@ -234,7 +234,6 @@ def remove_duplicate_flights(calendar_list):
 
 # Start browser
 driver = webdriver.Chrome()
-
 # Go to the top-level page with <frameset>
 driver.get("https://prod.myfbo.com/link.asp?fbo=aoal")
 
@@ -310,7 +309,7 @@ try:
 
     date_input = wait.until(EC.presence_of_element_located((By.NAME, "dto")))
 
-    one_month_later = (datetime.now() + relativedelta(months=1)).strftime("%m/%d/%y")
+    one_month_later = (datetime.now() + relativedelta(months=2)).strftime("%m/%d/%y")
 
     # Clear and input the date
     date_input.clear()
