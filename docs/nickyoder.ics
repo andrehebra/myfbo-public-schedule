@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:CE_172_SP N24108
+DTEND:20260328T000000Z
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+DTSTART:20260327T220000Z
+SUMMARY:Reservation with Jesus ﻿Suarez Diez De Andino and Nick Yoder
+UID:cdb8ddf9-bfff-4227-ad61-7e25dc089b21@cdb8.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Jordan Sorvillo\n\nMonthly Instructor Meeting 
 DTEND:20260402T003000Z
 LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
 DTSTART:20260401T223000Z
 SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Nick Yoder
-UID:2f65ebd7-a2cc-4bf3-a84b-12900ace42bd@2f65.org
+UID:2f0c43f2-53a0-4ec5-9dd6-8083a4de6cae@2f0c.org
 END:VEVENT
 END:VCALENDAR
