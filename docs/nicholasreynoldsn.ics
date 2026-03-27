@@ -1,89 +1,209 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-DTEND:20260424T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260424T140000Z
-SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
-UID:f6702373-7ae8-426e-8d92-eab92e9f15f9@f670.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260410T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260410T140000Z
-SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
-UID:15af885a-1be9-40b7-965c-a79ba54eea35@15af.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260417T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260417T140000Z
-SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
-UID:789ae29a-da5f-4d0f-b8d5-0b812ac970dc@789a.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260508T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260508T140000Z
-SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
-UID:a4320538-91fe-4970-ace3-251a2f857be9@a432.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Evan Pickle\n\nMonthly Instructor Meeting 
-DTEND:20260402T003000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260401T223000Z
-SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Nicholas ReynoldsN
-UID:a1c229f1-309d-4fa8-b474-c0c5d1cc2a7f@a1c2.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260410T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260410T180000Z
-SUMMARY:Reservation with Private Pilot ﻿Ground School and Nicholas ReynoldsN
-UID:fc347185-367b-40d6-9fa3-5a3e2f2177cd@fc34.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260501T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260501T140000Z
-SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
-UID:0c3d57c6-2bea-4d01-afe2-f007b73b22c3@0c3d.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260417T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260417T180000Z
-SUMMARY:Reservation with Private Pilot ﻿Ground School and Nicholas ReynoldsN
-UID:a32babac-e2bf-498d-8c61-364f2f85b723@a32b.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260403T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260403T140000Z
-SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
-UID:f45de9c1-a1da-4fbb-ade1-fc2201e1a3b6@f45d.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260522T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260522T140000Z
-SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
-UID:8e53cb60-76ca-4958-84d0-486388437bd5@8e53.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260403T200000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260403T180000Z
-SUMMARY:Reservation with Private Pilot ﻿Ground School and Nicholas ReynoldsN
-UID:4cc836b3-54b2-46bf-8bad-7e1cf09b7674@4cc8.org
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20260515T160000Z
-LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
-DTSTART:20260515T140000Z
-SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
-UID:7eb29871-2254-4f33-ba1f-cfee276e2aad@7eb2.org
-END:VEVENT
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:ics.py - http://git.io/lLljaA
+
+BEGIN:VEVENT
+
+DESCRIPTION:Drinks
+
+DTEND:20260328T020000Z
+
+LOCATION:2855 Roseglen Way\, Orlando\, FL 32812
+
+DTSTART:20260327T233000Z
+
+SUMMARY:Andre's House
+
+UID:drinks
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DESCRIPTION:More Drinks
+
+DTEND:20260328T060000Z
+
+LOCATION: 1108 S Orange Blossom Trl Suite A\, Orlando\, FL 32805
+
+DTSTART:20260328T020000Z
+
+SUMMARY:Cowboy's
+
+UID:cowboys
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260424T160000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260424T140000Z
+
+SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
+
+UID:f6702373-7ae8-426e-8d92-eab92e9f15f9@f670.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260410T160000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260410T140000Z
+
+SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
+
+UID:15af885a-1be9-40b7-965c-a79ba54eea35@15af.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260417T160000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260417T140000Z
+
+SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
+
+UID:789ae29a-da5f-4d0f-b8d5-0b812ac970dc@789a.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260508T160000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260508T140000Z
+
+SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
+
+UID:a4320538-91fe-4970-ace3-251a2f857be9@a432.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DESCRIPTION:Evan Pickle\n\nMonthly Instructor Meeting 
+
+DTEND:20260402T003000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260401T223000Z
+
+SUMMARY:Reservation with Instructor-Staff ﻿Meeting and Nicholas ReynoldsN
+
+UID:a1c229f1-309d-4fa8-b474-c0c5d1cc2a7f@a1c2.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260410T200000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260410T180000Z
+
+SUMMARY:Reservation with Private Pilot ﻿Ground School and Nicholas ReynoldsN
+
+UID:fc347185-367b-40d6-9fa3-5a3e2f2177cd@fc34.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260501T160000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260501T140000Z
+
+SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
+
+UID:0c3d57c6-2bea-4d01-afe2-f007b73b22c3@0c3d.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260417T200000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260417T180000Z
+
+SUMMARY:Reservation with Private Pilot ﻿Ground School and Nicholas ReynoldsN
+
+UID:a32babac-e2bf-498d-8c61-364f2f85b723@a32b.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260403T160000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260403T140000Z
+
+SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
+
+UID:f45de9c1-a1da-4fbb-ade1-fc2201e1a3b6@f45d.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260522T160000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260522T140000Z
+
+SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
+
+UID:8e53cb60-76ca-4958-84d0-486388437bd5@8e53.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260403T200000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260403T180000Z
+
+SUMMARY:Reservation with Private Pilot ﻿Ground School and Nicholas ReynoldsN
+
+UID:4cc836b3-54b2-46bf-8bad-7e1cf09b7674@4cc8.org
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+DTEND:20260515T160000Z
+
+LOCATION:391 Herndon Ave Suite A\, Orlando\, FL 32803
+
+DTSTART:20260515T140000Z
+
+SUMMARY:Reservation with Written Prep ﻿Ground School and Nicholas ReynoldsN
+
+UID:7eb29871-2254-4f33-ba1f-cfee276e2aad@7eb2.org
+
+END:VEVENT
+
 END:VCALENDAR
